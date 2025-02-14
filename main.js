@@ -2,7 +2,7 @@
 //The creation of an object that will be later changed to a string by forEach(item =>...) for match() module to work through them
 
 let str = {
-    "HTML tags" : ["<p>", '<div class="example">', '<img src="image.jpg" alt="description">']
+    "HTML tags" : ["<p>", '<div class="example">', '<img src="image.jpg" alt="description">'],
     "Email addresses" : ["user@example.com", "firstname.lastname@company.co.uk"],
     "Credit card numbers" : ["1234 5678 9012 3456", "1234-5678-9012-3456"],
     "URLs" : ["https://www.example.com", "http://subdomain.example.org/pageLinks"],
