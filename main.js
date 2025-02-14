@@ -17,7 +17,7 @@ let CreditCard = /\d{4,}(\s|-)\d{4,}(\s|-)\d{4,}(\s|-)\d{4,}/g
 let HtmltagsRegex = /<[^>]+>/g
 // loop used to start an iteration
 for (key in str) {
-    console.log(`the matches for ${key} are: \n`);
+    console.log(`the matched data types for ${key} are: \n`);
 // forEach(item =>...)} used 
 str[key].forEach(item => {
     let matched;
